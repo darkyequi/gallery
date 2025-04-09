@@ -3,6 +3,7 @@ body{
 	line-height: 1.5;
 	font-family: sans-serif;
 	background-image: url(shoe-1.jpg);
+	overflow-x: hidden
 }
 *{
 	margin:0;
@@ -78,16 +79,13 @@ img{
 }
 
 /*responsive*/
-@media(max-width: 600px){
-	.new.gallery.gallery.gallery .gallery-item{
-		width: 50%;
-	}
-}
-@media(max-width: 600px){
-    .new.gallery.gallery .gallery-item{
-		width: 100%;
-	}	
-	.new.gallery.gallery.gallery .gallery-filter .filter-item{
-		margin-bottom: 10px;
-	}
+@media(max-width: 600px) {
+  .gallery .gallery-item {
+    width: 100%;
+  }
+
+  .gallery .gallery-filter .filter-item {
+    margin-bottom: 10px;
+    display: block;
+  }
 }
