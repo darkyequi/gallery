@@ -78,12 +78,12 @@ img{
 }
 
 /*responsive*/
-@media(max-width: 991px){
+@media(max-width: 600px){
 	.new.gallery.gallery.gallery .gallery-item{
 		width: 50%;
 	}
 }
-@media(max-width: 767px){
+@media(max-width: 600px){
     .new.gallery.gallery .gallery-item{
 		width: 100%;
 	}	
